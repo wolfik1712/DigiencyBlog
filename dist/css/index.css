@@ -77,4 +77,102 @@ body {
   -webkit-transform: translateY(25%);
           transform: translateY(25%);
 }
+
+.blogPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 120px 135px;
+}
+.blogPage .newsPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.blogPage .newsPage .newsPost {
+  margin: 5%;
+  border: 10px solid #373737;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.blogPage .newsPage .newsPost .authorText {
+  margin: 0px 80px 0px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.blogPage .newsPage .newsPost .authorText .monthText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.blogPage .newsPage .newsPost .authorText .monthText img {
+  -webkit-transform: translateY(75%);
+          transform: translateY(75%);
+  width: 24px;
+  height: 24px;
+}
+.blogPage .newsPage .newsPost .authorText .monthText p {
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #7b7b7b;
+}
+.blogPage .newsPage .newsPost .authorText .newsText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+.blogPage .newsPage .newsPost .authorText .newsText h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31.25px;
+  line-height: 123.6%;
+  color: #373737;
+}
+.blogPage .newsPage .newsPost .authorText .newsText h3 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7b7b7b;
+}
+.blogPage .newsPage .newsPost .authorText .newsText .submit {
+  margin: 0;
+  width: 150px;
+  height: 50px;
+  background: #ff5300;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=index.css.map */
