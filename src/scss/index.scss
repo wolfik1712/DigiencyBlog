@@ -283,7 +283,6 @@ body {
 			display: flex;
 			flex-direction: row;
 			justify-content: start;
-
 			.nameTag {
 				margin: 5%;
 				padding: 2%;
@@ -297,6 +296,185 @@ body {
 			}
 			:hover {
 				border: 2px solid blue;
+			}
+		}
+	}
+}
+// Footer
+.footer {
+	background: #373737;
+	.footerBody {
+		display: flex;
+		text-align: center;
+		justify-content: space-around;
+		margin: 60px 40px 52px 40px;
+		.digiency {
+			transform: translateY(8%);
+			width: 155px;
+			height: 171px;
+			height: 291px;
+			h2 {
+				margin: 10% 0;
+				font-family: Work Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 150.6%;
+				color: #ffffff;
+			}
+			.digiencySocial {
+				.digiencySocialIcon {
+					display: flex;
+					flex-direction: row;
+					text-align: center;
+					.socButton {
+						margin: 5%;
+						width: 30px;
+						height: 30px;
+						background: #ffffff;
+						img {
+							transform: translateY(25%);
+						}
+					}
+					.socFb {
+						background: #ff5300;
+					}
+				}
+			}
+		}
+		.footerCompany {
+			display: flex;
+			flex-direction: column;
+			h2 {
+				font-family: Work Sans;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 25px;
+				line-height: 123.6%;
+				color: #ffffff;
+			}
+			a {
+				margin: 5%;
+				text-decoration: none;
+				font-family: Work Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 150.6%;
+				color: #ffffff;
+			}
+		}
+		.footerServices {
+			display: flex;
+			flex-direction: column;
+			h2 {
+				font-family: Work Sans;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 25px;
+				line-height: 123.6%;
+				color: #ffffff;
+			}
+			a {
+				margin: 5% 0%;
+				text-decoration: none;
+				font-family: Work Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 150.6%;
+				color: #ffffff;
+			}
+		}
+		.footerNews {
+			display: flex;
+			flex-direction: column;
+			width: 154px;
+			height: 179px;
+			h2 {
+				font-family: Work Sans;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 25px;
+				line-height: 123.6%;
+				color: #ffffff;
+			}
+			h3 {
+				font-family: Work Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 150.6%;
+				color: #ffffff;
+			}
+			.inputFooter {
+				margin: 6% 0;
+				display: flex;
+				flex-direction: row;
+				width: 200px;
+				height: 42px;
+				border: 1px solid #ff5300;
+				box-sizing: border-box;
+				background: #373737;
+				.inputFoot {
+					background: #373737;
+					font-family: Work Sans;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 12.8px;
+					line-height: 123.6%;
+					text-transform: capitalize;
+					color: #7b7b7b;
+				}
+				.imgLogoSend {
+					position: relative;
+					display: flex;
+					width: 45px;
+					height: 40px;
+					background: #ff5300;
+					img {
+						position: absolute;
+						display: flex;
+						margin-left: 25%;
+						margin-top: 30%;
+						transform: 50%;
+						width: 15px;
+						height: 15px;
+					}
+				}
+			}
+		}
+	}
+	.copyright {
+		display: flex;
+		background: #ff5300;
+		display: flex;
+		text-align: center;
+		justify-content: space-between;
+		padding: 5px 150px 5px 160px;
+		.copy {
+			display: flex;
+			flex-direction: row;
+			img {
+				transform: translateY(70%);
+				width: 20px;
+				height: 20px;
+			}
+			h2 {
+				transform: translateX(5%);
+				font-family: Work Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 150.6%;
+				color: #ffffff;
+			}
+		}
+		.copyTop {
+			img {
+				transform: translateY(40%);
+				width: 33px;
+				height: 33px;
 			}
 		}
 	}

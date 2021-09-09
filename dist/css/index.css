@@ -402,3 +402,226 @@ body {
 .menuBlock .tagsMenu .tagsBlock :hover {
   border: 2px solid blue;
 }
+
+.footer {
+  background: #373737;
+}
+.footer .footerBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 60px 40px 52px 40px;
+}
+.footer .footerBody .digiency {
+  -webkit-transform: translateY(8%);
+          transform: translateY(8%);
+  width: 155px;
+  height: 171px;
+  height: 291px;
+}
+.footer .footerBody .digiency h2 {
+  margin: 10% 0;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #ffffff;
+}
+.footer .footerBody .digiency .digiencySocial .digiencySocialIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+.footer .footerBody .digiency .digiencySocial .digiencySocialIcon .socButton {
+  margin: 5%;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+}
+.footer .footerBody .digiency .digiencySocial .digiencySocialIcon .socButton img {
+  -webkit-transform: translateY(25%);
+          transform: translateY(25%);
+}
+.footer .footerBody .digiency .digiencySocial .digiencySocialIcon .socFb {
+  background: #ff5300;
+}
+.footer .footerBody .footerCompany {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer .footerBody .footerCompany h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #ffffff;
+}
+.footer .footerBody .footerCompany a {
+  margin: 5%;
+  text-decoration: none;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #ffffff;
+}
+.footer .footerBody .footerServices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer .footerBody .footerServices h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #ffffff;
+}
+.footer .footerBody .footerServices a {
+  margin: 5% 0%;
+  text-decoration: none;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #ffffff;
+}
+.footer .footerBody .footerNews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 154px;
+  height: 179px;
+}
+.footer .footerBody .footerNews h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #ffffff;
+}
+.footer .footerBody .footerNews h3 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #ffffff;
+}
+.footer .footerBody .footerNews .inputFooter {
+  margin: 6% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 200px;
+  height: 42px;
+  border: 1px solid #ff5300;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #373737;
+}
+.footer .footerBody .footerNews .inputFooter .inputFoot {
+  background: #373737;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #7b7b7b;
+}
+.footer .footerBody .footerNews .inputFooter .imgLogoSend {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45px;
+  height: 40px;
+  background: #ff5300;
+}
+.footer .footerBody .footerNews .inputFooter .imgLogoSend img {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 30%;
+  -webkit-transform: 50%;
+          transform: 50%;
+  width: 15px;
+  height: 15px;
+}
+.footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ff5300;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 150px 5px 160px;
+}
+.footer .copyright .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer .copyright .copy img {
+  -webkit-transform: translateY(70%);
+          transform: translateY(70%);
+  width: 20px;
+  height: 20px;
+}
+.footer .copyright .copy h2 {
+  -webkit-transform: translateX(5%);
+          transform: translateX(5%);
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #ffffff;
+}
+.footer .copyright .copyTop img {
+  -webkit-transform: translateY(40%);
+          transform: translateY(40%);
+  width: 33px;
+  height: 33px;
+}
