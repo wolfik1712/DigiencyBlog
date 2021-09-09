@@ -752,6 +752,11 @@ body {
     margin: 0;
   }
 }
+@media (max-width: 450px) {
+  .container .blogPage .newsPage .newsPost .authorText {
+    margin: 0;
+  }
+}
 @media (max-width: 330px) {
   .container .blogPage .newsPage .newsPost .authorText {
     margin: 0;
