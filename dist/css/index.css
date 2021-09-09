@@ -16,8 +16,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   text-align: center;
 }
 .container .navImg {
@@ -82,8 +83,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 120px 135px;
 }
 .blogPage .newsPage {
@@ -96,7 +98,7 @@ body {
           flex-direction: column;
 }
 .blogPage .newsPage .newsPost {
-  margin: 5%;
+  margin: 0 5% 0 0;
   border: 10px solid #373737;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,4 +177,228 @@ body {
   background: #ff5300;
   border-radius: 5px;
 }
-/*# sourceMappingURL=index.css.map */
+
+.menuBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.menuBlock .searchBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.menuBlock .searchBlock input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 370px;
+  height: 60px;
+}
+.menuBlock .searchBlock button {
+  border: none;
+  background: none;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 5%;
+  -webkit-transform: translateY(-170%);
+          transform: translateY(-170%);
+}
+.menuBlock .searchBlock button:hover {
+  border: 2px;
+  color: blue;
+}
+.menuBlock .latestPost {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.menuBlock .latestPost .postBody {
+  padding: 0 24px 61px 18px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.menuBlock .latestPost .postBody h2 {
+  margin: 40px 0 30px 18px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #373737;
+}
+.menuBlock .latestPost .postBody .postNews {
+  margin: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  word-wrap: break-word;
+}
+.menuBlock .latestPost .postBody .postNews p {
+  margin: 0 5%;
+}
+.menuBlock .latestPost .postBody .postNews img {
+  width: 60px;
+  height: 60px;
+}
+.menuBlock .latestPost .postBody :hover {
+  text-decoration: underline;
+  color: blue;
+}
+.menuBlock .categoriesMenu {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.menuBlock .categoriesMenu h3 {
+  margin: 40px 0 40px 18px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #373737;
+}
+.menuBlock .categoriesMenu :hover {
+  text-decoration: underline;
+  color: blue;
+}
+.menuBlock .categoriesMenu .categoriesTable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.menuBlock .categoriesMenu .categoriesTable .pointCategories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 18px 38px 18px;
+}
+.menuBlock .categoriesMenu .categoriesTable .pointCategories h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #7b7b7b;
+}
+.menuBlock .categoriesMenu .categoriesTable .pointCategories h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #7b7b7b;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #7b7b7b;
+}
+.menuBlock .categoriesMenu .categoriesTable .pointCategories :hover {
+  text-decoration: underline;
+  color: blue;
+}
+.menuBlock .tagsMenu {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.menuBlock .tagsMenu h2 {
+  margin: 40px 0 40px 18px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #373737;
+}
+.menuBlock .tagsMenu :hover {
+  text-decoration: underline;
+  color: blue;
+}
+.menuBlock .tagsMenu .tagsBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.menuBlock .tagsMenu .tagsBlock .nameTag {
+  margin: 5%;
+  padding: 2%;
+  background: #fff7f4;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7b7b7b;
+}
+.menuBlock .tagsMenu .tagsBlock :hover {
+  border: 2px solid blue;
+}
