@@ -493,6 +493,9 @@ body {
 	}
 }
 @media (max-width: 1190px) {
+	.container {
+		overflow: hidden;
+	}
 	.newsPage {
 		width: 60%;
 	}
