@@ -756,11 +756,26 @@ body {
     margin: 0;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 530px) {
   .container .blogPage .newsPage .newsPost .authorText {
     margin: 0;
   }
 }
+.copyright {
+  overflow: hidden;
+  width: 60%;
+  -webkit-transform: translateX(-16%);
+          transform: translateX(-16%);
+}
+.copyright .copy {
+  -webkit-transform: translateX(15%);
+          transform: translateX(15%);
+}
+.copyright .copyTop {
+  -webkit-transform: translateX(250%);
+          transform: translateX(250%);
+}
+
 @media (max-width: 330px) {
   .container .blogPage .newsPage .newsPost .authorText {
     margin: 0;
