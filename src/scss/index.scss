@@ -643,6 +643,13 @@ body {
 		}
 	}
 }
+@media (max-width: 396px) {
+	.copyright {
+		overflow: hidden;
+		width: 40%;
+		transform: translateX(-16%);
+	}
+}
 @media (max-width: 330px) {
 	.container {
 		.blogPage {

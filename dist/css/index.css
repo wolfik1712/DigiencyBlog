@@ -816,6 +816,14 @@ body {
     display: none;
   }
 }
+@media (max-width: 396px) {
+  .copyright {
+    overflow: hidden;
+    width: 40%;
+    -webkit-transform: translateX(-16%);
+            transform: translateX(-16%);
+  }
+}
 @media (max-width: 330px) {
   .container .blogPage .newsPage .newsPost .authorText {
     margin: 0;
