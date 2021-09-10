@@ -650,6 +650,13 @@ body {
 		transform: translateX(-16%);
 	}
 }
+@media (max-width: 360px) {
+	.copyright {
+		overflow: hidden;
+		width: 32%;
+		transform: translateX(-16%);
+	}
+}
 @media (max-width: 330px) {
 	.container {
 		.blogPage {
@@ -669,9 +676,12 @@ body {
 	}
 	.copyright {
 		overflow: hidden;
-		width: 35%;
+		width: 22%;
 		.copy {
-			transform: translateX(30%);
+			transform: translateX(-30%);
+			h2 {
+				width: 240px;
+			}
 		}
 		.copyTop {
 			transform: translateX(-60%);

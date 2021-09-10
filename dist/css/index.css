@@ -824,6 +824,14 @@ body {
             transform: translateX(-16%);
   }
 }
+@media (max-width: 360px) {
+  .copyright {
+    overflow: hidden;
+    width: 32%;
+    -webkit-transform: translateX(-16%);
+            transform: translateX(-16%);
+  }
+}
 @media (max-width: 330px) {
   .container .blogPage .newsPage .newsPost .authorText {
     margin: 0;
@@ -835,11 +843,14 @@ body {
 
   .copyright {
     overflow: hidden;
-    width: 35%;
+    width: 22%;
   }
   .copyright .copy {
-    -webkit-transform: translateX(30%);
-            transform: translateX(30%);
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  .copyright .copy h2 {
+    width: 240px;
   }
   .copyright .copyTop {
     -webkit-transform: translateX(-60%);
