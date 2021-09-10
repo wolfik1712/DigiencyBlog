@@ -796,11 +796,11 @@ body {
             transform: translateX(-16%);
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 401px) {
   .copyright {
     margin-top: 10%;
     overflow: hidden;
-    width: 40%;
+    width: 55%;
     -webkit-transform: translateX(-25%);
             transform: translateX(-25%);
   }
@@ -820,6 +820,14 @@ body {
   .copyright {
     overflow: hidden;
     width: 40%;
+    -webkit-transform: translateX(-16%);
+            transform: translateX(-16%);
+  }
+}
+@media (max-width: 380px) {
+  .copyright {
+    overflow: hidden;
+    width: 39%;
     -webkit-transform: translateX(-16%);
             transform: translateX(-16%);
   }
