@@ -776,6 +776,26 @@ body {
           transform: translateX(250%);
 }
 
+@media (max-width: 400px) {
+  .copyright {
+    margin-top: 10%;
+    overflow: hidden;
+    width: 40%;
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  .copyright .copy {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+    word-wrap: break-word;
+  }
+  .copyright .copy img {
+    display: none;
+  }
+  .copyright .copyTop {
+    display: none;
+  }
+}
 @media (max-width: 330px) {
   .container .blogPage .newsPage .newsPost .authorText {
     margin: 0;
