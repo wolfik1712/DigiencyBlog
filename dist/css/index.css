@@ -807,11 +807,11 @@ body {
 
   .copyright {
     overflow: hidden;
-    width: 80%;
+    width: 35%;
   }
   .copyright .copy {
-    -webkit-transform: translateX(-60%);
-            transform: translateX(-60%);
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
   }
   .copyright .copyTop {
     -webkit-transform: translateX(-60%);
